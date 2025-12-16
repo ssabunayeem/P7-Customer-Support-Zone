@@ -2,7 +2,7 @@ import React from "react";
 
 const States = ({ cookingTotal, readyTotal }) => {
   return (
-    <div className="w-11/12 mx-auto py-10 grid grid-cols-1 lg:grid-cols-2 gap-5 h-[350px] mb-30">
+    <div className="w-11/12 mx-auto py-10 grid grid-cols-1 lg:grid-cols-2 gap-5 h-[350px] mb-30 md:mb-0">
 
       <div
         className="

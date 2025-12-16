@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer  sm:footer-horizontal bg-neutral text-neutral-content p-10 lg:px-20">
+            <footer className="footer  sm:footer-horizontal bg-neutral text-neutral-content p-10 lg:px-20 py-20">
                 <aside>
                     <p className='text-3xl'>
                         CS — Ticket System
@@ -79,9 +79,9 @@ const Footer = () => {
             </footer>
 
 
-            <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4 border-t-2 border-gray-800">
-                <aside className="grid-flow-col items-center">
-                    <p>© {new Date().getFullYear()} - 2025 CS — Ticket System. All rights reserved.</p>
+            <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4 border-t-2 border-gray-800 text-center flex justify-center py-5">
+                <aside className="grid-flow-col items-center text-center">
+                    <p className='text-center'>© {new Date().getFullYear()} - 2025 CS — Ticket System. All rights reserved.</p>
                 </aside>
 
             </footer>
