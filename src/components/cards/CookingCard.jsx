@@ -9,7 +9,7 @@ const CookingCard = ({ order, handleCooking }) => {
       </h3>
 
       <button onClick={() => handleCooking(order)} className="btn btn-success text-white w-full">
-        Completed
+        Complete
       </button>
     </div>
   );
