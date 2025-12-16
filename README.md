@@ -1,16 +1,34 @@
-# React + Vite
+# CS — Ticket System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+**CS — Ticket System** is a modern, intuitive customer support platform built for learning and practice purposes. It allows teams to manage support requests efficiently by creating, tracking, and resolving tickets in a structured workflow. The system supports ticket prioritization, status tracking, notifications, and analytics, offering a realistic simulation of a professional customer support environment.  
 
-Currently, two official plugins are available:
+This project was developed as a hands-on exercise in **React**, **Tailwind CSS**, and full-stack integration concepts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
+- Create, edit, and delete tickets
+- Assign ticket priorities (High, Medium, Low)
+- Track ticket status (Open, In Progress, Resolved)
+- Real-time task updates and notifications (using Toast)
+- Banner counters for pending/resolved tickets
+- Responsive design using Tailwind CSS
+- Practice with state management and React components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
+- **Frontend:** React, Tailwind CSS, daisyUI  
+- **Backend (optional):** Node.js / Express (if integrated)  
+- **Hosting / Deployment:** Surge.sh  
+- **Version Control:** Git & GitHub  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Project Setup
+
+1. **Clone the repo**  
+```bash
+git clone <your-repo-url>
+cd cs-ticket-system
