@@ -39,7 +39,7 @@ const OrderCard = ({ order, handleOrder }) => {
 
         <div className="flex gap-5">
           <p>{order.customer}</p>
-          <p>{order.createdAt}</p>
+          <p>📅 {order.createdAt}</p>
         </div>
       </div>
 
