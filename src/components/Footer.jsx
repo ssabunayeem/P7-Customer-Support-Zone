@@ -8,7 +8,7 @@ const Footer = () => {
                     <p className='text-3xl'>
                         CS — Ticket System
                     </p>
-                    <p className='md:w-150 mt-3'>
+                    <p className='lg:w-150 mt-3'>
                         CS — Ticket System is a modern, intuitive platform designed to help teams manage customer support requests efficiently. It allows users to create, track, and resolve tickets in a structured workflow, ensuring timely responses and better collaboration. With features like ticket prioritization, status tracking, notifications, and analytics, this system provides a practical learning experience in building full-stack web applications and understanding real-world support operations. This project is developed for educational purposes and hands-on practice in React, Tailwind CSS, and backend integration.
                     </p>
                 </aside>
